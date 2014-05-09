@@ -5,5 +5,6 @@ RocketDrop::Application.routes.draw do
   get "gmail/destrop"
   resources :gmails
 
+
   root to: "gmail#index"
 end

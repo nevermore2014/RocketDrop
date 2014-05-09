@@ -15,6 +15,10 @@ gem 'httparty'
 gem 'mime'
 gem 'mail'
 gem 'gmail', :path => "vendor/gmail"
+gem 'griddler'
+gem 'pdf-reader'
+
+gem 'mailman', require: false
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
